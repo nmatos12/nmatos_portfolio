@@ -2,6 +2,8 @@
 
 :root {
     --font_family: 'Roboto', sans-serif;
+    --primary_box_shadow: 0px 10px 20px #d87093;
+    --primary_border: #5606be solid 5px;
 }
 
 html {
@@ -9,6 +11,7 @@ html {
 }
 
 /* RESETS */
+
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +25,8 @@ a {
     color: #000000;
 }
 
+/* Global Classes */
+
 a:hover {
     color: #5606be;
     text-decoration: underline;
@@ -30,6 +35,8 @@ a:hover {
 .tab {
     text-indent:40px 
 }
+
+/* CUSTOM CSS */
 
 .hero {
     display: flex;
@@ -48,8 +55,8 @@ a:hover {
     margin-left: 300px;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 10px 20px palevioletred;
-    border: #5606be solid 5px;
+    box-shadow: var(--primary_box_shadow);
+    border: var(--primary_border);
     width: 600px;
 }
 
@@ -65,12 +72,9 @@ a:hover {
     margin: 20px 120px;
 }
 
-span {
-    display: none;
-}
-
-h2 {
-    margin-bottom: 20px;
+.contact div {
+    display: flex;
+    justify-content: center;
 }
 
 .project-pic {
@@ -96,12 +100,16 @@ h2 {
     height: 300px;
     margin: 50px;
     padding: 50px;
-    box-shadow: 0px 10px 20px palevioletred;
-    border: #5606be solid 5px;
+    box-shadow: var(--primary_box_shadow);
+    border: var(--primary_border);
 }
 
 .project-container p {
     padding: 0.4rem;
+}
+
+h2 {
+    margin-bottom: 20px;
 }
 
 header {
@@ -109,7 +117,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 10px 20px palevioletred;
+    box-shadow: var(--primary_box_shadow);
 }
 
 footer {

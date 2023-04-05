@@ -12,12 +12,21 @@ N/A
 
 Images below provide a snapshot of webpage.
 
-![alt text](assets/images/Horiseon%20Website.png)
-![alt text](assets/images/Horiseon%20Website%202.png)
+![Image showing functionality of the portfolio webpage](assets/images/Portfolio_Screenshot.png)
+![Image showing functionality of the portfolio webpage](assets/images/Portfolio_Screenshot2.png)
 
 ## Credits
 
 Rutger University: https://git.bootcampcontent.com/Rutgers-University/RUT-VIRT-FSF-FT-02-2023-U-LOLC
+
+### References:
+- [Instructors Portfolio](https://jdtadlock.com)
+- [Website on how to build a webpage for junior developers](https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/)
+- [CSS Tutorial Video](https://youtu.be/1PnVor36_40)
+- [CSS Tutorial Video](https://youtu.be/yfoY53QXEnI)
+- [Flexbox Tutorial Video](https://youtu.be/tXIhdp5R7sc)
+- [Flexbox Tutorial Video](https://youtu.be/phWxA89Dy94)
+
 
 ## License
 
