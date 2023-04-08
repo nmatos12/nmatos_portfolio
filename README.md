@@ -12,6 +12,8 @@ N/A
 
 Images below provide a snapshot of webpage.
 
+[Deployed Application](https://nmatos12.github.io/nmatos_portfolio/)
+
 ![Image showing functionality of the portfolio webpage](assets/images/Portfolio_Screenshot.png)
 ![Image showing functionality of the portfolio webpage](assets/images/Portfolio_Screenshot2.png)
 
